@@ -19,4 +19,6 @@ jobs:
         distribution: 'temurin'
 
     - name: test java
-      runt: mvn test
+      run: |
+        cd ejmploJava
+        mvn test
