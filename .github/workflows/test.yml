@@ -20,5 +20,5 @@ jobs:
 
     - name: test java
       run: |
-        cd ejmploJava
+        cd */ejmploJava
         mvn test
